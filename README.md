@@ -7,14 +7,20 @@ Công nghệ sử dụng: Danh sách các công nghệ chính bạn đã sử d�
       Backend: Spring Boot, Spring Security, Spring Data JPA
       Cơ sở dữ liệu: MySQL
       API: REST API
-	  
+  
 Cài đặt:
      git clone https://github.com/XuanHieu220102/Emmerce_Website
 	 
      Backend:
-            Cấu hình: spring.datasource.url=jdbc:mysql://localhost:3306/your-database
-                      spring.datasource.username=your-username
-                      spring.datasource.password=your-password
+     		Yêu cầu hệ thống:
+				Node.js
+				MySQL
+				JDK 11 hoặc cao hơn
+	
+            Cấu hình: 
+	   		spring.datasource.url=jdbc:mysql://localhost:3306/your-database
+                spring.datasource.username=your-username
+                spring.datasource.password=your-password
 					  
      Mở file ecommerce_backend_db.sql để chạy bằng mysql
 	 
